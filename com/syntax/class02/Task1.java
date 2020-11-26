@@ -23,10 +23,10 @@ public class Task1 {
         Thread.sleep(2000);
         driver.findElement(By.id("ctl00_logout")).click();
         String actualTitle = driver.getTitle();
-        String expectedTitle1 = "Web Orders";
+        String expectedTitle1 = "Web Orders Login";
         if (actualTitle.equalsIgnoreCase(expectedTitle1)){
             System.out.println("Title match");
-        }else{
+        } else {
             System.out.println("Title does not match");
         }
         Thread.sleep(2000);
