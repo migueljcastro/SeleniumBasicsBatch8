@@ -1,0 +1,31 @@
+Handling Checkboxes and Radiobuttons
+1. if you have only 1 checkbox or radiobutton - just click on it
+2. if you have multiple - store in a list and loop through
+
+DropDowns
+Dropdown is a menu or a method which allows a user to select one or multiple options
+
+Types of Dropdowns:
+1. Single select
+2. Multiple select
+
+Handling a dropdown:
+1. just clicking on the dropdown and clicking on the option (not really recommended)
+2. using Select class
+        in order to use select class we need to make sure we have a
+        <select> tag in html
+
+Selecting options from the dropdown can be done in 3 ways:
+1. by index
+2. by visible text
+3. by value
+
+In order to deselect options we can use following methods -- Your DD must be a multi select DD
+deselectByValue()
+deselectByIndex()
+deselectByVisibleText()
+deselectAll()
+
+
+
+When you use multiple methods to print its called chaining
